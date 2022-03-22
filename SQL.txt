@@ -1,0 +1,4 @@
+SELECT * FROM Funcionários WHERE salário < 5000;
+
+UPDATE Funcionario SET salario = 2000
+WHERE name LIKE 'a%'
